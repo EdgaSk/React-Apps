@@ -8,6 +8,7 @@ body {
 }
 
 form {
+    width: 500px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -16,4 +17,12 @@ form {
 .formRow {
     display: flex;
     flex-direction: column;
+}
+
+.list {
+    padding: 0;
+}
+
+li {
+    list-style: none;
 }
