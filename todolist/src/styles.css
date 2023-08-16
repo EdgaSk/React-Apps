@@ -25,4 +25,25 @@ form {
 
 li {
     list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.inputcheck {
+    margin-right: 10px;
+}
+
+.deletebtn {
+    border: 1px red solid;
+    background-color: transparent;
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.deletebtn:hover {
+    border: 1px solid white;
 }

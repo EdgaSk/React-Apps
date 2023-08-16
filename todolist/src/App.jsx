@@ -48,7 +48,7 @@ export default function App() {
           id="item" 
         />
       </div>
-      <button className="btn">Add</button>
+      <button className="addbtn">Add</button>
       </form>
       <h1 className="header">Todo List</h1>
       <ul className="list">
@@ -57,10 +57,10 @@ export default function App() {
           return (
           <li key={todo.id}>
             <label>
-              <input type="checkbox" checked={todo.completed} onChange={e => toggleTodo(todo.id, e.target.checked)}/>
+              <input className="inputcheck" type="checkbox" checked={todo.completed} onChange={e => toggleTodo(todo.id, e.target.checked)}/>
               {todo.title}
             </label>
-            <button onClick={() => deleteTodo(todo.id)} className="btn">Detele</button>
+            <button onClick={() => deleteTodo(todo.id)} className="deletebtn">Delete</button>
           </li>
         )
         })}
