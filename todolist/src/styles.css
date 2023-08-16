@@ -1,0 +1,19 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+body {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formRow {
+    display: flex;
+    flex-direction: column;
+}
