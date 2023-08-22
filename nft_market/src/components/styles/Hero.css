@@ -1,0 +1,40 @@
+.heroCointainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    position: relative;;
+}
+
+.coinIcons {
+    width: 30px;
+    height: 30px;
+}
+
+.bitcoin {
+    position:absolute;
+    left: 25%;
+    top: 20%;
+}
+
+.eth {
+    position:absolute;
+    right: 20%;
+    bottom: 20%;
+}
+
+.doge {
+    position:absolute;
+    right: 30%;
+    top: 20%;
+}
+
+.heroCointainer h1, .heroCointainer p {
+    color: white;
+}
+
+.heroButtons {
+    display: flex;
+    margin-top: 20px;
+}

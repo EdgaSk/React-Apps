@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.sectionTitle {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.featureCointainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}

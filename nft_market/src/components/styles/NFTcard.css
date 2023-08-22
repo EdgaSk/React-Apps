@@ -1,0 +1,32 @@
+.cardCointainer {
+    display: flex;
+    background-color: #1e1e1e;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.nftImage {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.nftInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 20px;
+}
+.nftInfo > div {
+    margin-top: 5px;
+}
+
+.nftTitleName {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.priceInfo {
+    color: rgb(204, 204, 204);
+}

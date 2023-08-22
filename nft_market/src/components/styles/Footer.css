@@ -1,0 +1,46 @@
+.footerCointainer {
+    border-top: #ddf247 1px solid;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.footerbox {
+    width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footerImgCointainer > div {
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.socialIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.footerLogo {
+    width: 180px;
+}
+
+.linksCointainer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.linksCointainer p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.linksCointainer ul {
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+}

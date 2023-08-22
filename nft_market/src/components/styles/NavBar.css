@@ -1,0 +1,37 @@
+.headerCointainer {
+    display: flex;
+    background-color: #161616;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    border-bottom: #ddf247 1px solid;
+    z-index: 1;
+}
+
+.navCointainer {
+    display: flex;
+    align-items: center;
+    width: 1400px;
+}
+
+.logoImg {
+    height: 50px;
+}
+
+.linkCointainer {
+    display: flex;
+    list-style: none;
+    flex: 2;
+}
+
+.linkCointainer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0 15px;
+}
+
+.linkCointainer a:hover {
+    color: #ddf247;
+}
