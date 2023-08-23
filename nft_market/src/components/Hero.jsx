@@ -28,7 +28,7 @@ const Hero = (props) => {
     )
 }
 
-Hero.PropTypes = {
+Hero.propTypes = {
     heroTitle: PropTypes.string.isRequired,
     heroSubtitle: PropTypes.string.isRequired,
 }

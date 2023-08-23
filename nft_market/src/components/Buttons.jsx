@@ -19,12 +19,12 @@ export const WhitewBtn = (props) => {
     )
 }
 
-YellowBtn.PropTypes = {
+YellowBtn.propTypes = {
     yellowText: PropTypes.string.isRequired,
     yellowIcon: PropTypes.string,
 };
 
-WhitewBtn.PropTypes = {
+WhitewBtn.propTypes = {
     whiteText: PropTypes.string.isRequired,
     whiteIcon: PropTypes.string,
 };

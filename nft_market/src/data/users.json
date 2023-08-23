@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "name": "User1",
+        "avatar": "/avatar/avatar1.png",
+        "sales": 4,
+        "crypto": "ETH",
+        "collection": "Collection1",
+        "items": 5,
+        "likes": 450
+    },
+    {
+        "id": "2",
+        "name": "User2",
+        "avatar": "/avatar/avatar2.png",
+        "sales": 6,
+        "crypto": "ETH",
+        "collection": "Collection2",
+        "items": 10,
+        "likes": 120
+    },
+    {
+        "id": "3",
+        "name": "User3",
+        "avatar": "/avatar/avatar3.png",
+        "sales": 20,
+        "crypto": "ETH",
+        "collection": "Collection3",
+        "items": 40,
+        "likes": 324
+    },
+    {
+        "id": "4",
+        "name": "User4",
+        "avatar": "/avatar/avatar4.png",
+        "sales": 15,
+        "crypto": "ETH",
+        "collection": "Collection4",
+        "items": 25,
+        "likes": 45
+    },
+    {
+        "id": "5",
+        "name": "User5",
+        "avatar": "/avatar/avatar5.png",
+        "sales": 10,
+        "crypto": "ETH",
+        "collection": "Collection5",
+        "items": 60,
+        "likes": 758
+    },
+    {
+        "id": "6",
+        "name": "User6",
+        "avatar": "/avatar/avatar6.png",
+        "sales": 40,
+        "crypto": "ETH",
+        "collection": "Collection6",
+        "items": 70,
+        "likes": 423
+    },
+    {
+        "id": "7",
+        "name": "User7",
+        "avatar": "/avatar/avatar4.png",
+        "sales": 100,
+        "crypto": "ETH",
+        "collection": "Collection7",
+        "items": 120,
+        "likes": 689
+    },
+    {
+        "id": "8",
+        "name": "User8",
+        "avatar": "/avatar/avatar1.png",
+        "sales": 1,
+        "crypto": "ETH",
+        "collection": "Collection8",
+        "items": 7,
+        "likes": 754
+    }
+]
