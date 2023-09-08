@@ -1,0 +1,25 @@
+.topCointainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: #ececec 1px solid;
+    p {
+        color: #9dc435;
+        font-size: 1.3rem;
+        font-weight: bolder;
+    }
+}
+
+.listCointainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: #ececec 1px solid;
+}

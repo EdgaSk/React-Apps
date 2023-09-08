@@ -1,0 +1,50 @@
+.cointainer {
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid #378b36;
+    background-color: white;
+    padding: 0 20%;
+}
+
+.left {
+    display: flex;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex: 2;
+    justify-content: center;
+    a{
+        color: #378b36;
+        font-size: 1.2rem;
+        margin-right: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+            color: #9dc435;
+        }
+    }
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    color: #378b36;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.userIcon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    color: #378b36;
+}
