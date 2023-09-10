@@ -1,8 +1,8 @@
 import styles from "./styles/ListCard.module.scss";
 import PropTypes from "prop-types";
-import {LogsBtn, LGreenBtn} from "../components/Buttons";
+import {LogsBtn, LGreenBtn} from "./Buttons";
 
-const ListCard = (props) => {
+export const ListCard = (props) => {
 
     return (
         <div className={styles.cardCointainer}>
@@ -11,11 +11,11 @@ const ListCard = (props) => {
                 <p>{props.email}</p>
             </div>
             <div className={styles.right}>
-                    <LogsBtn
-                        Btntext="View Log"
-                        petId={props.petId}
-                        key={props.petId}
-                    />
+                <LogsBtn
+                    Btntext="View Log"
+                    petId={props.petId}
+                    key={props.petId}
+                />
                 <LGreenBtn
                     Btntext="Delete"
                 />
@@ -23,8 +23,6 @@ const ListCard = (props) => {
         </div>
     )
 }
-
-export default ListCard;
 
 ListCard.propTypes = {
     name: PropTypes.string,

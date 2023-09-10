@@ -1,6 +1,6 @@
 import styles from "./styles/Pets.module.scss";
 import {GreenBtn} from "../components/Buttons"
-import ListCard from "../components/ListCard";
+import { ListCard } from "../components/ListCards";
 import { useApi } from "../context/ApiContext";
 
 const Pets = () => {
